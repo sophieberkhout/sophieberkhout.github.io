@@ -1,0 +1,14 @@
+name: "my-website"
+navbar:
+  title: "About me"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: publications.html
+output:
+  html_document:
+    theme: paper
+    css: "style.css"
+    includes: 
+      after_body: footer.html
