@@ -10,15 +10,15 @@ A Primer on Bayesian Model-Averaged Meta-Analysis.
 #### Preprints
 Haaf, J. M., Hoogeveen, S., Berkhout, S. W., Gronau, Q. F., & Wagenmakers, E. (2020). 
 <i>A Bayesian Multiverse Analysis of Many Labs 4: Quantifying the Evidence against Mortality Salience.</i>
-PsyArXiv. <a href="https://doi.org/10.31234/osf.io/cb9er">https://doi.org/10.31234/osf.io/cb9er</a>
+PsyArXiv. <a href="https://doi.org/10.31234/osf.io/cb9er" target="_blank">https://doi.org/10.31234/osf.io/cb9er</a>
 
 #### Blog posts
 Gronau, Q. F., Heck, D., Berkhout, S. W., Haaf, J. M., & Wagenmakers, E. (2020, 7th May). 
 A Primer on Bayesian Model-Averaged Meta-Analysis. <i>Bayesian Spectacles.</i> 
-<a href="https://www.bayesianspectacles.org/a-primer-on-bayesian-model-averaged-meta-analysis/">
+<a href="https://www.bayesianspectacles.org/a-primer-on-bayesian-model-averaged-meta-analysis/" target="_blank">
 https://www.bayesianspectacles.org/a-primer-on-bayesian-model-averaged-meta-analysis/</a>
 
 Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D., & Wagenmakers, E. (2020, 12th May). 
 How to Conduct a Bayesian Model-Averaged Meta-Analysis in JASP. <i>JASP Blog.</i>
-<a href="https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/">
+<a href="https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/" target="_blank">
 https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/</a>

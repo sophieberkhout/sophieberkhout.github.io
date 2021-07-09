@@ -10,7 +10,7 @@ I am a PhD candidate at the department of Methodology and Statistics of Utrecht 
 My research focuses on intensive longitudinal methodology. 
 Currently, I am working on how to study the dynamic processes in dyadic interactions and how to model data with different timescales. 
 
-I also contribute to the open-source statistics program <a href = "https://jasp-stats.org/">JASP</a>, 
+I also contribute to the open-source statistics program <a href = "https://jasp-stats.org/" target="_blank">JASP</a>, 
 where I am responsible for the Bayesian meta-analysis module and the -yet to come- time series module.
 </div>
 </body>
