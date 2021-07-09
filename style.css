@@ -7,9 +7,17 @@ a:link {
   color: Silver
 }
 
+a:visited {
+  color: Silver;
+}
+
 a:hover {
   color: #ffcc99;
   text-decoration: none;
+}
+
+a:active {
+  color: Silver;
 }
 
 html, body {
