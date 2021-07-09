@@ -2,7 +2,7 @@ name: "my-website"
 navbar:
   title: "Sophie W. Berkhout, MSc"
   left:
-    - text: "Home"
+    - text: "About me"
       href: index.html
     - text: "Publications"
       href: publications.html
