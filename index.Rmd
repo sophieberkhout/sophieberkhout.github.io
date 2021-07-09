@@ -1,11 +1,10 @@
 ---
-title: "Sophie W. Berkhout, MSc"
+title: "PhD Candidate at Utrecht University"
 ---
 <body>
 <div class = "wrap">
 <img src = "img/byron bay.jpg" style = "float: right;" width = "33%">
 
-#### PhD Candidate at Utrecht University
 I am a PhD candidate at the department of Methodology and Statistics of Utrecht University. 
 My research focuses on intensive longitudinal methodology. 
 Currently, I am working on how to study the dynamic processes in dyadic interactions and how to model data with different timescales. 
