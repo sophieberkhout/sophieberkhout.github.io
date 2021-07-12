@@ -1,6 +1,6 @@
 name: "my-website"
 navbar:
-  title: "Sophie W. Berkhout, MSc"
+  title: "Sophie W. Berkhout"
   left:
     - text: "About me"
       href: index.html

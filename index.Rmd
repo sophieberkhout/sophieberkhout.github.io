@@ -1,9 +1,10 @@
 ---
-title: "About me"
+title: "Sophie W. Berkhout, MSc"
 ---
 <body>
 <div class = "wrap">
 <img src = "img/byron bay.jpg" style = "float: right;" width = "33%">
+<h1>About me</h1>
 
 I am a PhD candidate at the Methodology and Statistics department of Utrecht University. 
 My research focuses on intensive longitudinal methodology. 

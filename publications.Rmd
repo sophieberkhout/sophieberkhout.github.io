@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 ---
-
+# Publications
 #### Published
 Gronau, Q. F., Heck, D. W., Berkhout, S. W., Haaf, J. M., & Wagenmakers, E. (in press). 
 A Primer on Bayesian Model-Averaged Meta-Analysis. 
