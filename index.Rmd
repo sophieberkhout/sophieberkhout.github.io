@@ -1,5 +1,5 @@
 ---
-title: "Sophie W. Berkhout, MSc"
+title: "Sophie W. Berkhout"
 ---
 <body>
 <div class = "wrap">
