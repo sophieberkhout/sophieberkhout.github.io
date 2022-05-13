@@ -1,18 +1,28 @@
 ---
 title: "Publications"
 ---
-# Publications
+## Publications
 #### Published
-Gronau, Q. F., Heck, D. W., Berkhout, S. W., Haaf, J. M., & Wagenmakers, E. (in press). 
-A Primer on Bayesian Model-Averaged Meta-Analysis. 
-<i>Advances in Methods and Practices in Psychological Science.</i>
+<div class="apa">
+
+Gronau, Q. F., Heck, D. W., Berkhout, S. W., Haaf, J. M., & Wagenmakers, E.-J. (2021). A Primer on Bayesian Model-Averaged Meta-Analysis. <i>Advances in Methods and Practices in Psychological Science.</i> <a href="https://doi.org/10.1177/25152459211031256" target="_blank">https://doi.org/10.1177/25152459211031256</a>
+
+</div>
 
 #### Preprints
-Haaf, J. M., Hoogeveen, S., Berkhout, S. W., Gronau, Q. F., & Wagenmakers, E. (2020). 
+<div class="apa">
+
+Haaf, J. M., Hoogeveen, S., Berkhout, S. W., Gronau, Q. F., & Wagenmakers, E.-J. (2020). 
 <i>A Bayesian Multiverse Analysis of Many Labs 4: Quantifying the Evidence against Mortality Salience.</i>
 PsyArXiv. <a href="https://doi.org/10.31234/osf.io/cb9er" target="_blank">https://doi.org/10.31234/osf.io/cb9er</a>
 
+Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D. W., & Wagenmakers, E.-J. (2021). <i>A Tutorial on Bayesian Model-Averaged Meta-Analysis in JASP.</i> PsyArXiv. <a href="https://doi.org/10.31234/osf.io/ne8dw" target="_blank">https://doi.org/10.31234/osf.io/ne8dw</a>
+
+</div>
+
 #### Blog posts
+<div class="apa">
+
 Gronau, Q. F., Heck, D., Berkhout, S. W., Haaf, J. M., & Wagenmakers, E. (2020, 7th May). 
 A Primer on Bayesian Model-Averaged Meta-Analysis. <i>Bayesian Spectacles.</i> 
 <a href="https://www.bayesianspectacles.org/a-primer-on-bayesian-model-averaged-meta-analysis/" target="_blank">
@@ -22,3 +32,5 @@ Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D., & Wagenmakers, E. (2020, 
 How to Conduct a Bayesian Model-Averaged Meta-Analysis in JASP. <i>JASP Blog.</i>
 <a href="https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/" target="_blank">
 https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/</a>
+
+</div>
