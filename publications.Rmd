@@ -5,18 +5,24 @@ title: "Publications"
 #### Published
 <div class="apa">
 
-Gronau, Q. F., Heck, D. W., Berkhout, S. W., Haaf, J. M., & Wagenmakers, E.-J. (2021). A Primer on Bayesian Model-Averaged Meta-Analysis. <i>Advances in Methods and Practices in Psychological Science.</i> <a href="https://doi.org/10.1177/25152459211031256" target="_blank">https://doi.org/10.1177/25152459211031256</a>
+Hoogeveen, S., Berkhout, S. W., Gronau, Q. F., Wagenmakers, E.-J., & Haaf, J. M. (2023). 
+Improving Statistical Analysis in Team Science: The Case of a Bayesian Multiverse of Many Labs 4. 
+<i>Advances in Methods and Practices in Psychological Science, 6</i>(3). 
+<a href="https://doi.org/10.1177/25152459231182318" target="_blank">https://doi.org/10.1177/25152459231182318</a>
 
-</div>
+Berkhout, S. W., Schuurman, N. K., & Hamaker, E. L. (2023). 
+A tool to simulate and visualize dyadic interaction dynamics. 
+<i>Psychological Methods</i>. 
+<a href="https://doi.org/10.1037/met0000575" target="_blank">https://doi.org/10.1037/met0000575</a>
 
-#### Preprints
-<div class="apa">
+Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D. W., & Wagenmakers, E.-J. (2023). 
+A tutorial on Bayesian model-averaged meta-analysis in JASP. <i>Behavior Research Methods. </i>
+<a href="https://doi.org/10.3758/s13428-023-02093-6" target="_blank"><https://doi.org/10.3758/s13428-023-02093-6</a>
 
-Haaf, J. M., Hoogeveen, S., Berkhout, S. W., Gronau, Q. F., & Wagenmakers, E.-J. (2020). 
-<i>A Bayesian Multiverse Analysis of Many Labs 4: Quantifying the Evidence against Mortality Salience.</i>
-PsyArXiv. <a href="https://doi.org/10.31234/osf.io/cb9er" target="_blank">https://doi.org/10.31234/osf.io/cb9er</a>
-
-Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D. W., & Wagenmakers, E.-J. (2021). <i>A Tutorial on Bayesian Model-Averaged Meta-Analysis in JASP.</i> PsyArXiv. <a href="https://doi.org/10.31234/osf.io/ne8dw" target="_blank">https://doi.org/10.31234/osf.io/ne8dw</a>
+Gronau, Q. F., Heck, D. W., Berkhout, S. W., Haaf, J. M., & Wagenmakers, E.-J. (2021). 
+A Primer on Bayesian Model-Averaged Meta-Analysis. 
+<i>Advances in Methods and Practices in Psychological Science, 4</i>(3). 
+<a href="https://doi.org/10.1177/25152459211031256" target="_blank">https://doi.org/10.1177/25152459211031256</a>
 
 </div>
 

@@ -13,8 +13,8 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -270,21 +271,41 @@ $(document).ready(function () {
 <div id="published" class="section level4">
 <h4>Published</h4>
 <div class="apa">
-<p>Gronau, Q. F., Heck, D. W., Berkhout, S. W., Haaf, J. M., &amp; Wagenmakers, E.-J. (2021). A Primer on Bayesian Model-Averaged Meta-Analysis. <i>Advances in Methods and Practices in Psychological Science.</i> <a href="https://doi.org/10.1177/25152459211031256" target="_blank">https://doi.org/10.1177/25152459211031256</a></p>
-</div>
-</div>
-<div id="preprints" class="section level4">
-<h4>Preprints</h4>
-<div class="apa">
-<p>Haaf, J. M., Hoogeveen, S., Berkhout, S. W., Gronau, Q. F., &amp; Wagenmakers, E.-J. (2020). <i>A Bayesian Multiverse Analysis of Many Labs 4: Quantifying the Evidence against Mortality Salience.</i> PsyArXiv. <a href="https://doi.org/10.31234/osf.io/cb9er" target="_blank">https://doi.org/10.31234/osf.io/cb9er</a></p>
-<p>Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D. W., &amp; Wagenmakers, E.-J. (2021). <i>A Tutorial on Bayesian Model-Averaged Meta-Analysis in JASP.</i> PsyArXiv. <a href="https://doi.org/10.31234/osf.io/ne8dw" target="_blank">https://doi.org/10.31234/osf.io/ne8dw</a></p>
+<p>Hoogeveen, S., Berkhout, S. W., Gronau, Q. F., Wagenmakers, E.-J.,
+&amp; Haaf, J. M. (2023). Improving Statistical Analysis in Team
+Science: The Case of a Bayesian Multiverse of Many Labs 4. <i>Advances
+in Methods and Practices in Psychological Science, 6</i>(3).
+<a href="https://doi.org/10.1177/25152459231182318" target="_blank">https://doi.org/10.1177/25152459231182318</a></p>
+<p>Berkhout, S. W., Schuurman, N. K., &amp; Hamaker, E. L. (2023). A
+tool to simulate and visualize dyadic interaction dynamics.
+<i>Psychological Methods</i>.
+<a href="https://doi.org/10.1037/met0000575" target="_blank">https://doi.org/10.1037/met0000575</a></p>
+<p>Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D. W., &amp;
+Wagenmakers, E.-J. (2023). A tutorial on Bayesian model-averaged
+meta-analysis in JASP. <i>Behavior Research Methods. </i>
+<a href="https://doi.org/10.3758/s13428-023-02093-6" target="_blank"><a
+href="https://doi.org/10.3758/s13428-023-02093-6%3C/a"
+class="uri">https://doi.org/10.3758/s13428-023-02093-6&lt;/a</a></p>
+<p>Gronau, Q. F., Heck, D. W., Berkhout, S. W., Haaf, J. M., &amp;
+Wagenmakers, E.-J. (2021). A Primer on Bayesian Model-Averaged
+Meta-Analysis. <i>Advances in Methods and Practices in Psychological
+Science, 4</i>(3).
+<a href="https://doi.org/10.1177/25152459211031256" target="_blank">https://doi.org/10.1177/25152459211031256</a></p>
 </div>
 </div>
 <div id="blog-posts" class="section level4">
 <h4>Blog posts</h4>
 <div class="apa">
-<p>Gronau, Q. F., Heck, D., Berkhout, S. W., Haaf, J. M., &amp; Wagenmakers, E. (2020, 7th May). A Primer on Bayesian Model-Averaged Meta-Analysis. <i>Bayesian Spectacles.</i> <a href="https://www.bayesianspectacles.org/a-primer-on-bayesian-model-averaged-meta-analysis/" target="_blank"> https://www.bayesianspectacles.org/a-primer-on-bayesian-model-averaged-meta-analysis/</a></p>
-<p>Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D., &amp; Wagenmakers, E. (2020, 12th May). How to Conduct a Bayesian Model-Averaged Meta-Analysis in JASP. <i>JASP Blog.</i> <a href="https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/" target="_blank"> https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/</a></p>
+<p>Gronau, Q. F., Heck, D., Berkhout, S. W., Haaf, J. M., &amp;
+Wagenmakers, E. (2020, 7th May). A Primer on Bayesian Model-Averaged
+Meta-Analysis. <i>Bayesian Spectacles.</i>
+<a href="https://www.bayesianspectacles.org/a-primer-on-bayesian-model-averaged-meta-analysis/" target="_blank">
+https://www.bayesianspectacles.org/a-primer-on-bayesian-model-averaged-meta-analysis/</a></p>
+<p>Berkhout, S. W., Haaf, J. M., Gronau, Q. F., Heck, D., &amp;
+Wagenmakers, E. (2020, 12th May). How to Conduct a Bayesian
+Model-Averaged Meta-Analysis in JASP. <i>JASP Blog.</i>
+<a href="https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/" target="_blank">
+https://jasp-stats.org/2020/05/12/how-to-conduct-a-bayesian-model-averaged-meta-analysis-in-jasp/</a></p>
 </div>
 </div>
 </div>
