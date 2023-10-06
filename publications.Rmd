@@ -2,7 +2,6 @@
 title: "Publications"
 ---
 ## Publications
-#### Published
 <div class="apa">
 
 Hoogeveen, S., Berkhout, S. W., Gronau, Q. F., Wagenmakers, E.-J., & Haaf, J. M. (2023). 
